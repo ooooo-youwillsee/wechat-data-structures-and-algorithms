@@ -10,9 +10,8 @@ class Solution:
         c = 0
         for i in range(index, len(nums)):
             if n - nums[i] == 0:
-                # self.c += 1
                 c += 1
-            elif n > i:
+            elif n > nums[i]:
                 c += self.solution(n - nums[i], i)
         return c
 
