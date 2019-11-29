@@ -36,8 +36,6 @@ class Solution:
                     j = j + 2
                     continue
 
-        # if i == len(s):
-
         return True
 
 
